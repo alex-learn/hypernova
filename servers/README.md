@@ -1,6 +1,10 @@
 # hypernova-express-react
 ----------
+## To use
+- compile and run frontend web [publicServer](./publicServer)
+- compile and run backend render engine [hypernovaServer](./hypernovaServer)
+- Access frontend web from ```http://localhost:8080```
 
-airbnb hypernova using patched version to support 'export default' and 'export functions-name'
+## Patches
+- hypernova patched to support ```export default`` and ```export 'functions-name'``
 
-- patched : https://github.com/alex-node/hypernova.git

@@ -14,11 +14,11 @@ const renderer = new Renderer({
 
 app.get('/', (req, res) => {
   const jobs = {
-    SimpleComponent: { name: req.query.name || 'Stephen' }
+    SimpleComponent: { name: req.query.name || 'Alex' }
   };
 
   renderer.render(jobs).then(html => res.send(html));
 });
 
 app.listen(8080, () => console.log('Now listening'));
- 
+
